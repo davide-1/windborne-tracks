@@ -1,9 +1,4 @@
 
-## `public/favicon.ico`
-(any 32×32 icon; you can skip if you want)
-
-## `app/globals.css`
-```css
 html,body, #__next { height: 100%; }
 * { box-sizing: border-box; }
 :root { color-scheme: light dark; }
