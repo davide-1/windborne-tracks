@@ -1,0 +1,23 @@
+
+## `public/favicon.ico`
+(any 32×32 icon; you can skip if you want)
+
+## `app/globals.css`
+```css
+html,body, #__next { height: 100%; }
+* { box-sizing: border-box; }
+:root { color-scheme: light dark; }
+body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto; }
+.leaflet-container { background: #0b1020; }
+.panel {
+  position: absolute; z-index: 1000; top: 12px; left: 12px;
+  background: rgba(0,0,0,0.6); color: #fff; padding: 10px 12px; border-radius: 10px;
+  max-width: 360px; line-height: 1.35; backdrop-filter: blur(6px);
+}
+.panel b { color: #e5ff8b; }
+.legend {
+  position: absolute; z-index: 1000; bottom: 12px; left: 12px;
+  background: rgba(0,0,0,0.6); color:#fff; padding: 8px 10px; border-radius: 10px;
+}
+.bad { color: #ff9c9c; }
+.good { color: #9cffcf; }
